@@ -45,6 +45,10 @@ int main()
         i++;
     }
 
+    
+    // Ternary Operator -
+    int age = 20;
+    (age > 15) ? printf("legal age\n") : printf("under age\n");
 
     int j = 0;
 
