@@ -36,4 +36,29 @@ int main()
         printf("Error\n");
         break;
     }
+
+    int i = 0;
+    
+    // While loop - loops through a block of code as long as a specified condition is true:
+    while(i < 5) {
+        printf("%d\n", i);
+        i++;
+    }
+
+
+    int j = 0;
+
+    //Do while loop - The do/while loop is a variant of the while loop.
+    //This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+    do {
+        printf("%d\n", j);
+        j++;
+    } while(j < 5);
+
+    int myNum = 5;
+    
+    //For loop -  allows you to repeat a block of code a specific number of times.
+    for(int k = 0; k < myNum; k++) {
+        printf("%d\n", k);
+    }
 }
